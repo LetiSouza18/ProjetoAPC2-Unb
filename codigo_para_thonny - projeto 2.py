@@ -165,15 +165,16 @@ lista = list()
 dicionario = {}
 
 for i in range(0, len(texto_port), 2):
+    #Encontrar o número no texto em português
     if texto_port[i].isnumeric():
-        #Achar a frase em português correspondente a cada número:
+        #Achar a frase em português correspondente a esse número:
         num = texto_port[i] + texto_port[i + 1]
         pos_num_port = int(texto_port.find(num))
         pos_prox_num_port = int(texto_port.find(str(int(num) + 1)))
         tam_frase_port = pos_prox_num_port - pos_num_port
         frase_port =  texto_port[pos_num_port + 2 : pos_num_port + tam_frase_port - 2] 
         
-        #Achar a frase em ticuna correpondente a cada número:
+        #Achar a frase em ticuna correpondente a esse número:
         pos_num_ticuna = int(texto_ticuna.find(num))
         pos_prox_num_ticuna = int(texto_ticuna.find(str(int(num) + 1)))
         tam_frase_ticuna = pos_prox_num_ticuna - pos_num_ticuna
