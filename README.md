@@ -18,17 +18,19 @@ existem poucos textos escritos em Tikuna traduzidos para o português e vice-ver
 duas causas, não existe língua parecida com ela e não existem muitas traduções, é difícil treinar
 modelos pré-treinados de IA Generativa para a língua Ticuna. Os modelos pré-treinados usam
 línguas indo-européias comuns. Ou seja, treinar em outra língua indo-européia fica mais fácil.
-Por isso, a proposta deste projeto 1 de APC. Colaborar com a produção de um conjunto de dados
-(dataset) para treinar um modelo de IA Generativa para a língua Ticuna.
 
 ### 🚀 Objetivo do projeto
  A proposta deste projeto é colaborar com a produção de um conjunto de dados para treinar um modelo de IA Generativa para a língua Ticuna.
-Para começar, precisamos escrever um programa em Python utilizando DICIONÁRIOS para produzir como saída um json com as chaves 'id', 'port' e 'tic' em que cada frase em português corresponde a uma frase em Ticuna.
+Para começar, precisamos escrever um programa em Python utilizando DICIONÁRIOS para produzir como saída um json com as chaves 'id', 'pt' e 'tca' em que cada frase em português corresponde a uma frase em Ticuna.
 
 ### ⚙️ Funções e métodos utilizados
-- isnumeric()
-- find()
-- append()
+- *Lista*: é uma coleção ordenada de valores, separados por vírgula e dentro de colchetes. Todos os itens de uma lista são indexados.
+- *Dicionário*: é uma coleção de itens e seus elementos contém uma chave e valor.
+- *String*: é uma sequência de caracteres.
+- *append*: método utilizado para adicionar um elemento em uma lista.
+- *split*: é usado para dividir uma string em uma lista de substrings com base em um separador especificado. 
+- *JSON*: significa JavaScriptObject Notation e é uma formatação utilizada para estruturar dados em formato de texto e transmiti-los de uma sistema para outro.
+- *dumps*: esse método grava um objeto serializado em Python diretamente em um arquivo como dados formatados em JSON.
 
 ### 📋 Pré-requisitos
 - Python
