@@ -39,4 +39,4 @@ Para começar, precisamos escrever um programa em Python utilizando DICIONÁRIOS
 - Clone o repositório para sua máquina local: ```https://github.com/LetiSouza18/ProjetoAPC2-Unb.git ```
 
 ### 🛠️ Demonstração:
-[Vídeo do trabalho]
+[Vídeo do trabalho](https://youtu.be/5F2Lw2FUP-Y)
